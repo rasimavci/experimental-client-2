@@ -1,7 +1,8 @@
 # Experimental web Client 2
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<p>
 <img src="src/assets/kandylogo.png"/>
-
+</p>
 
 ## Introduction
 This app comes tries to build a minimal webRTC client for mobile using kandy.js
