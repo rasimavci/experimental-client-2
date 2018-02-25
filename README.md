@@ -1,6 +1,6 @@
 # Experimental web Client 2
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-<img src="src/assets/logoBlue.png" width = "30%"/>
+<img src="src/assets/kandylogo.png"/>
 
 
 ## Introduction
