@@ -5,10 +5,9 @@
 </p>
 
 ## Introduction
-This app comes tries to build a minimal webRTC client for mobile using kandy.js
+In this applicaton I tried to build a minimal webRTC client for mobile using kandy.js
 
-After all, I learned Vue for a while, and I tried to be familier more about the Vue ecosystem
-After reading some guides in their official site, I just want to try my chance.
+After all, I learned Vue for a while, and I tried to be familier more about the Vue ecosystem and after reading some guides in their official site, I just want to try my chance.
 
 So I decided to build this new mobile client
 
