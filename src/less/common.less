@@ -1,0 +1,89 @@
+// iconfont在线
+@import '//at.alicdn.com/t/font_325942_emm7k8ar2ozxs9k9.css';
+*{
+  outline: none;
+  font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑";
+}
+button{
+  border-radius: 5px;
+}
+@padding-for-bar: 1.4rem;
+@padding-for-bar: 0;
+@main-color: #5A95BA;
+@diary-header-height:4.6rem;
+@home-header-height: 4.6rem;
+@home-container-height:calc(~"99.5vh - "(@padding-for-bar + @common-footer-height + @home-header-height));
+@entries-container-height:calc(~"99.5vh - "(@padding-for-bar + @common-footer-height + @diary-header-height));
+@calendar-container-height:calc(~"99.5vh - "(@padding-for-bar + @diary-header-height));
+@todolist-container-height:calc(~"99.5vh - "(@padding-for-bar + @common-header-height));
+@common-header-height:3.6rem;
+@common-footer-height:2.8rem;
+@contact-container-height:calc(~"99.5vh - "@common-header-height);
+.diaryheader{
+  margin-top: @padding-for-bar;
+  height: @diary-header-height;
+  box-sizing: border-box;
+}
+.commonheader(@bgcolor,@fontcolor) {
+  margin-top: @padding-for-bar;
+  height: @common-header-height;
+  box-sizing: border-box;
+  background-color: @bgcolor;
+  text-align: center;
+  color: @fontcolor;
+  position: relative;
+  z-index:0;
+  .title {
+    line-height: @common-header-height;
+    font-size: 1.3rem;
+  }
+  .right-btn,.left-btn {
+    height: @common-header-height;
+    .iconfont {
+      line-height: @common-header-height;
+      font-size: 1.2rem;
+    }
+  }
+  .right-btn{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  .left-btn{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  }
+}
+.diaryfooter {
+  height: @common-footer-height;
+  width: 100vw;
+  background-color: @main-color;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.fade-enter-active {
+  transition: all .5s
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+  // transform: translateX(-200px);
+}
+
+.fadeinout-enter-active {
+  transition: opacity .3s
+}
+
+.fadeinout-leave-active {
+  transition: opacity .2s
+}
+
+.fadeinout-enter,
+.fadeinout-leave-active {
+  opacity: 0
+}
